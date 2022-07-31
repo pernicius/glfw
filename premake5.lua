@@ -9,8 +9,8 @@ project "HeliosEngine.GLFW"
 	staticruntime "On"
 	targetname     "GLFW3"
 	
-	targetdir ("%{wks.location}/bin/client/"   .. outputdir .. "/he_vendor/%{string.lower(prj.name)}")
-	objdir    ("%{wks.location}/build/client/" .. outputdir .. "/he_vendor/%{string.lower(prj.name)}")
+	targetdir ("%{wks.location}/bin/client/"   .. outputdir .. "/heliosengine/%{string.lower(prj.name)}")
+	objdir    ("%{wks.location}/build/client/" .. outputdir .. "/heliosengine/%{string.lower(prj.name)}")
 	
 	includedirs {
 		"include",
