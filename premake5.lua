@@ -7,7 +7,7 @@ project "HeliosEngine.GLFW"
 	language      "C"
 	cppdialect    "C++20"
 	staticruntime "On"
-	targetname     "GLFW3"
+	targetname     "glfw3"
 	
 	targetdir ("%{wks.location}/bin/client/"   .. outputdir .. "/heliosengine/%{string.lower(prj.name)}")
 	objdir    ("%{wks.location}/build/client/" .. outputdir .. "/heliosengine/%{string.lower(prj.name)}")
